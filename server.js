@@ -47,9 +47,8 @@ app.get('/discord-user/:userId', async (req, res) => {
       discriminator: member.user.discriminator,
       bot: member.user.bot,
       clan: null,
-      global_name: member.user.globalName || null,
-      display_name: member.displayName || member.user.username,
-      public_flags: member.user.flags ? member.user.flags.toArray() : [],
+      display_name: member.displayName || member.user.username, // Keep display_name
+      badges: member.user.flags ? member.user.flags.toArray() : [],
       discord_status: member.presence ? member.presence.status : 'offline',
       active_on_discord_web: false,
       active_on_discord_desktop: false,
@@ -58,7 +57,6 @@ app.get('/discord-user/:userId', async (req, res) => {
       spotify: null,
       activities: [],
       client_status: member.presence ? member.presence.clientStatus : {},
-      badges: member.user.flags ? member.user.flags.toArray() : [],
     };
 
     if (member.presence) {
