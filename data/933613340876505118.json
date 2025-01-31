@@ -1,0 +1,35 @@
+{
+  "id": "933613340876505118",
+  "username": "ntarya",
+  "avatar": "https://cdn.discordapp.com/avatars/933613340876505118/f038a8b58df783028a9f70b11ffa048c.webp",
+  "discriminator": "0",
+  "bot": false,
+  "clan": null,
+  "global_name": "NotArya",
+  "display_name": "NotArya",
+  "discord_status": "online",
+  "active_on_discord_web": false,
+  "active_on_discord_desktop": true,
+  "active_on_discord_mobile": false,
+  "listening_to_spotify": false,
+  "spotify": null,
+  "activities": [
+    {
+      "name": "Visual Studio Code",
+      "type": 0,
+      "state": "📝 Editing package.json - 4/18",
+      "details": "📁 Project: Donut-API",
+      "application_id": "383226320970055681",
+      "large_image_key": "565944799761268737",
+      "small_image_key": "565945770067623946",
+      "large_image_text": "Editing a json file",
+      "small_image_text": "💻 Visual Studio Code"
+    }
+  ],
+  "client_status": {
+    "desktop": "online"
+  },
+  "badges": [
+    "HypeSquadOnlineHouse3"
+  ]
+}
